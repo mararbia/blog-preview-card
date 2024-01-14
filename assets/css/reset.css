@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Figtree-ExtraBold';
+    src: url('../fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree-SemiBold';
+    src: url('../fonts/static/Figtree-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

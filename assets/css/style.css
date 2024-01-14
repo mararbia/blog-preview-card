@@ -1,0 +1,101 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    background-color: var(--yellow);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .card {
+    border: 1px solid var(--black);
+    box-shadow: 10px 10px 1px var(--black);
+    border-radius: 20px;
+    background-color: var(--white);
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.container .card .card-img {
+    width: 250px;
+}
+
+.container .card .card-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container .card .wrapper {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container .card .info-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .card .info-card .decoration-title {
+    width: 70px;
+    height: 20px;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.container .card .info-card h3 {
+    font-family: 'Figtree-ExtraBold', 'Sans-serif';
+    font-weight: 800;
+}
+
+.container .card .info-card p {
+    font-family: 'Figtree-SemiBold', 'Sans-serif';
+    font-weight: 600;
+}
+
+.container .card .text-content h1 {
+    font-family: 'Figtree-ExtraBold', 'sans-serif';
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.container .card .text-content h1:hover {
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+.container .card .text-content p {
+    font-family: 'Figtree-SemiBold', 'sans-serif';
+    font-weight: 600;
+    color: var(--grey);
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.container .card .author-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container .card .author-info .avatar img{
+    border-radius: 50%;
+    width: 40px;
+}
+
+.container .card .author-info p {
+    font-family: 'Figtree-ExtraBold', 'sans-serif';
+    font-size: 1.2rem;
+}
